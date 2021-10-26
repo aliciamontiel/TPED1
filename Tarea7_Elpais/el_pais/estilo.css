@@ -1,0 +1,363 @@
+body {
+margin: 0px;
+} 
+
+header {
+    padding: 20px;
+    margin: 0px;
+    background-color: #003344
+}
+
+#thinkbig {
+display: inline;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+margin-left: 75vh;
+text-decoration: none;
+font-weight: lighter;
+font-size: 0.9em;
+}
+
+.telefonica {
+  
+margin-left: 50vh;
+
+}
+
+
+#telefonica {
+
+  display: inline;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+margin-left: 53vh;
+text-decoration: none;
+font-size: 0.7em;
+
+}
+
+figure {
+background-image: url(section.jpg);
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+} 
+
+h1 {
+
+  font-family: serif;
+  color: black;
+  font-size: 4em;
+  text-align: center;
+  line-height: 1em;
+ padding-left: 50vh;
+ padding-right: 50vh;
+padding-top: 10vh;
+
+} 
+
+h2 {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(32, 32, 32);
+  font-size: 1.1em;
+  text-align: center;
+  line-height: 1.2em;
+ padding-left: 70vh;
+ padding-right: 70vh;
+padding-top: 1vh;
+margin-bottom: 5vh;
+
+} 
+
+.redes-container{
+  padding: 20px;
+  margin: 0px;
+  background-position: center;
+  } 
+
+  .facebook {
+    margin-left: 75vh;
+  } 
+
+
+  .twitter {
+    margin-left: 0.3vh;
+  } 
+
+  .share {
+    margin-left: 0.3vh;
+  } 
+
+  .save {
+    margin-left: 10vh;
+  } 
+
+  .mail {
+    margin-left: 0.3vh;
+  } 
+
+  .mail {
+    margin-left: 0.3vh;
+  } 
+
+
+
+.autor {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(167, 167, 167);
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.2em;
+   padding-left: 70vh;
+   padding-right: 70vh;
+  padding-top: 1.5vh;
+
+  } 
+
+.fecha {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(167, 167, 167);
+    font-size: 0.6em;
+    text-align: center;
+    line-height: 1.2em;
+   padding-left: 70vh;
+   padding-right: 70vh;
+  padding-top: 1.5vh;
+
+  } 
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(32, 32, 32);
+    font-size: 0.97em;
+    text-align: left;
+    line-height: 1.5em;
+   padding-left: 70vh;
+   padding-right: 70vh;
+  padding-top: 1vh;
+
+  } 
+
+  main {
+
+    margin-top: 10vh;
+  } 
+
+  .capitalLetter
+{
+   float:left;
+   color:black;
+   background:white;
+   border: none;
+   font-size: 100px;
+   line-height:60px;
+   padding:2px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right: 5px;
+}
+
+.imagen {
+  background-image: url(wearables.jpg);
+background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45vw;
+  height: 45vh;
+  margin-left: 28%;
+  margin-top: 7vh;
+ 
+}
+
+h3 {
+ font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+color: rgb(32, 32, 32);
+font-size: 1.2em;
+text-align: left;
+line-height: 1.5em;
+ padding-left: 70vh;
+ padding-right: 70vh;
+padding-top: 1vh;
+
+}
+
+ul {
+  padding-left: 70vh;
+  padding-right: 70vh;
+ padding-top: 1vh;
+} 
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(32, 32, 32);
+    font-size: 0.97em;
+    text-align: left;
+    line-height: 1.5em;
+    padding-bottom: 3vh;
+    list-style: none;
+
+
+}  
+
+.imagen2 {
+  background-image: url(hogar.jpg);
+background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45vw;
+  height: 45vh;
+  margin-left: 27%;
+  margin-top: 7vh;
+
+} 
+
+.imagen3 {
+  background-image: url(coche.jpg);
+background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45vw;
+  height: 45vh;
+  margin-left: 27%;
+  margin-top: 7vh;
+
+} 
+
+.imagen4 {
+  background-image: url(industria.jpg);
+background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45vw;
+  height: 45vh;
+  margin-left: 27%;
+  margin-top: 7vh;
+
+} 
+
+.imagen5 {
+  background-image: url(ciudad.jpg);
+background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45vw;
+  height: 45vh;
+  margin-left: 27%;
+  margin-top: 7vh;
+
+} 
+
+#enlaceparrafo {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(32, 32, 32);
+  font-size: 0.97em;
+  text-align: left;
+  line-height: 1.5em;
+text-decoration: underline;  
+
+} 
+
+.footer {
+  margin-left: 69vh;
+} 
+
+footer {
+
+  margin-top: 7vh;
+margin-bottom: 5vh;
+
+}
+
+hr {
+
+  margin-left:69vh ;
+  margin-right: 69vh;
+  margin-bottom: 3vh;
+}
+
+nav {
+
+background-color: rgb(236, 236, 236);
+margin-left:69vh ;
+  margin-right: 69vh;
+  margin-bottom: 3vh;
+padding: 0.7vh;
+display: flex;
+
+}
+
+.criterios {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+ display: inline-flex;
+ padding-right: 0.3em;
+ padding-top: 0.4em;
+
+}
+
+#informacion {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+ display: inline;
+ padding-left: 18vh;
+text-decoration: none;
+color: rgb(35, 149, 255);
+padding-top: 0.4em;
+
+}
+
+.redes-footer {
+  
+  padding: 20px;
+  margin: 0px;
+  background-position: center;
+  } 
+
+  .facebook2 {
+    margin-left: 90vh;
+  } 
+
+
+  .twitter2 {
+    margin-left: 0.3vh;
+  } 
+
+  .share2 {
+    margin-left: 0.3vh;
+  } 
+
+a {
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(182, 182, 182);
+  font-weight: bold;
+  font-size: 0.5em;
+  
+} 
+
+.archivo {
+
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 0.5em;
+
+} 
+summary {
+  margin-left:69vh ;
+  margin-right: 69vh;
+  margin-bottom: 3vh;
+} 
