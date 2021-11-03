@@ -66,4 +66,14 @@ a {
     text-decoration: none;
 }
 
+img {
+    object-fit: cover;
+    width: 33%;
+    filter:grayscale(1);
+}
+
+a:hover img {
+    filter: grayscale(0);
+    
+}
 
