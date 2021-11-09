@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: rgb(255, 255, 255);
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -225,4 +226,233 @@ li {
 
   a.logo {
 font-size: 2em;
+=======
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px; 
+    padding: 0%;
+    margin: 0%;   
+    }
+
+.container {
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+    padding-right: 5em; 
+    position: fixed; 
+    background-color: rgb(0, 0, 0);
+    left: 0;
+    top: 0; 
+    width: 100%;
+    }
+
+   .logo {
+
+    font-size: 1.3em; 
+    padding-left: 2em;   
+   } 
+
+.container a {
+
+  color:rgb(255, 255, 255); 
+  font-size: 1em;
+  text-decoration: none;
+
+}
+
+.header {
+
+  margin-top: 70px
+}
+
+.container a :hover{
+
+  text-decoration: none;
+
+}
+
+header {
+  background-image: url(fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+  h1 {
+    color: rgb(20, 20, 20);
+    font-weight: lighter;
+    text-align: left;
+    font-size: 50px;
+    line-height: 80px;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    padding-left: 200px;
+  
+  }
+  h2 {
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: lighter;
+    text-align: left;
+   padding-left: 200px
+   
+   
+  }
+  nav {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 200px
+  }
+
+  a:link {
+    color: rgb(197, 196, 196);
+    text-decoration-line: none;
+  }
+   
+
+a[href*="#anclaCentro"]:hover {
+  text-decoration-line: none;
+  color:rgb(252, 5, 5) 
+  
+}
+
+a[href*="#anclaCentro"]:link {
+  text-decoration-line: none;
+  color:rgb(252, 5, 5) 
+  
+}
+
+a[href*="#anclaCentro"]:visited {
+  text-decoration-line: none;
+  color:rgb(252, 5, 5) 
+  
+}
+
+a[href*="#anclaBajo"]:link {
+  text-decoration-line: none;
+  color:rgb(252, 5, 5) 
+
+}
+
+a[href*="#anclaBajo"]:visited {
+  text-decoration-line: none;
+  color:rgb(252, 5, 5) 
+
+}
+
+a[href*="#anclaBajo"]:hover {
+  text-decoration-line: none;
+  color:rgb(252, 5, 5) 
+
+}
+
+  a:visited {
+    color: rgb(197, 196, 196);
+  }
+  a:hover {
+    text-decoration-line: none;
+    color: red;
+  }
+
+  main {
+    margin-right: 50vh;
+    margin-top: 200px;
+
+  }
+
+  p {
+    text-align: left;
+    color: rgb(53, 53, 53);
+    font-weight: lighter;
+    font-size: 2em;
+    Line-height: 1.7em;
+    padding-left: 200px;
+    padding-top: 100px;
+    margin: 0px;
+  }
+
+  .parrafo {
+    text-align: left;
+    color: rgb(53, 53, 53);
+    font-weight: lighter;
+    font-size: 2em;
+    Line-height: 1.7em;
+    padding-left: 200px;
+    padding-top: 20px;
+  }
+  
+  a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+    line-height: 80px;
+    
+    }
+
+  .menu  {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+    margin-top: 1em;
+    color: rgb(197, 196, 196);
+    
+  }
+
+
+  footer {
+    background-color: black;
+    width: 100%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    
+  }
+
+li {
+   font-size: 30px;
+   color: white;
+   list-style-type: none;
+   padding-left: 70px;
+   padding-right:10px; 
+   line-height: 80px;
+   
+
+  }
+
+  .navigation ul {
+
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+  }
+
+  .navigation ul li {
+
+    display: inline-block;
+
+  }
+
+  .navigation ul li a {
+
+    display: block;
+    font-size: 0.7em;
+    transition: all 0.4s linear; 
+    border-radius: 5px; 
+    text-decoration: none;
+
+  }
+
+  .navitacion ul li a:hover {
+
+    background: white; 
+    text-decoration: none;
+  }
+
+  a.logo {
+font-size: 2em;
+>>>>>>> 2f366ca6a258670bad041944b91dd69d9c1bab14
   }

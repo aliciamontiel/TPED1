@@ -29,8 +29,9 @@ h2 {
 
 img {
     max-width: 460px;
-    height: fit-content;
     padding: 10px;
+    filter: grayscale(1);
+
 }
 
 /*-----FLEX-----*/
@@ -42,6 +43,7 @@ flex-direction: row;
 flex-wrap: wrap;
 align-items: center; 
 align-content: space-around;
+    justify-content: center;
 
 }
 
@@ -66,4 +68,8 @@ a {
     text-decoration: none;
 }
 
+a:hover img {
 
+    filter:grayscale(0);
+}
+   
