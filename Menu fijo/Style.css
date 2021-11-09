@@ -220,7 +220,7 @@ li {
 
   a.logo {
 font-size: 2em;
-=======
+     }  
 body {
     background-color: rgb(255, 255, 255);
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -448,5 +448,4 @@ li {
 
   a.logo {
 font-size: 2em;
->>>>>>> 2f366ca6a258670bad041944b91dd69d9c1bab14
-  }
+ }
