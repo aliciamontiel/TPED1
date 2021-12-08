@@ -1,0 +1,58 @@
+header .row {    
+    align-content: center; 
+}
+
+a {
+color: green;
+padding: 20px;
+}
+
+a :hover{
+color: black;
+}
+
+.contenedorAlineamientoVertical {
+    display: flex; 
+    align-items: center; 
+    height: 200px;
+}
+
+nav li {
+    list-style: none;
+}
+
+#botonesCentrales {
+    color:brown;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+
+h1 {
+    color: brown;
+}
+
+#botonesCentrales * :hover {
+
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+    
+}
+
+#botonesCentrales * {
+    padding: 20px;
+}
+
+.card {
+    border-style: none;
+}
+
+footer {
+    height: 300px;
+}
+#videoLibrary {
+    text-align: center;
+    margin-top: 50px;
+}
