@@ -1,0 +1,39 @@
+header, main, div, footer {
+            box-sizing: border-box;
+            border-color: blue;
+            border-width: 1px;
+            border-style: dotted;
+            min-height: 50px;
+}
+
+header {
+
+    background-color: beige;
+}
+
+nav{
+    background-color: burlywood;
+}
+
+main{
+
+background-color: brown;    
+}
+
+article{
+background-color: coral;
+}
+
+section {
+background-color: wheat;
+}
+
+footer {
+background-color: whitesmoke;
+}
+
+footer nav {
+
+    background-color: chocolate;
+}
+
