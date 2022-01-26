@@ -13,6 +13,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #cookies {
+            background-color: #0b2a3c;
+            color: #f3f4e6;
+            height: 50px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            
+        }
+
+    </style>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#cookies").hide();
+            });
+        });
+
+    </script>
 
 </head>
 
@@ -21,7 +42,8 @@
 
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <a name="home"></a>
-            <a class="navbar-brand" href="#home"><img src="imagenes/aflordepixel.png" alt="aflordepixel" style="width: 30vh"></a>
+            <a class="navbar-brand" href="#home"><img src="imagenes/aflordepixel.png" alt="aflordepixel"
+                    style="width: 30vh"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,21 +69,29 @@
 
     <main>
         <div class="col" id="banner">
-            <div class="banner">
+            <div class="banner" >
+                <h1 style="color: #F3F4E6; background-color: transparent; padding-top: 20vh;"><a href="#" style="color: #F3F4E6;">Diseño gráfico</a></h1><br>
+                <h1 style="color: #F3F4E6; background-color: transparent;"><a href="#" style="color: #F3F4E6;">Fotografía</a></h1><br>
+                <h1 style="color: #F3F4E6; background-color: transparent;"><a href="#" style="color: #F3F4E6;">Diseño editorial</a></h1><br>
+                <h1 style="color: #F3F4E6; background-color: transparent;"><a href="#" style="color: #F3F4E6;">Diseño web</a></h1><br>
             </div>
         </div>
 
         <div class="row">
-            <div class="col" style="height: 87vh;" id="intro">
+            <div class="col" style="height: 95vh;" id="intro">
 
                 <h2>Tu estudio de diseño en Alicante</h2>
                 <p>¿Quieres lo mejor para tu marca? <strong>Aflordepixel</strong> también.
 
-                    Ponemos a tu servicio toda la <em>pasión</em> y <em>creatividad</em> que merece <u>tu proyecto</u>. Nos gusta la gente
-                    que se esfuerza en dar a conocer lo que hace, y nuestro trabajo es ponérselo más <strong>fácil</strong>.<br>
+                    Ponemos a tu servicio toda la <em>pasión</em> y <em>creatividad</em> que merece <u>tu proyecto</u>.
+                    Nos gusta la gente
+                    que se esfuerza en dar a conocer lo que hace, y nuestro trabajo es ponérselo más
+                    <strong>fácil</strong>.<br>
                     <br>
-                    ¿Cómo? Ofreciendo diferentes servicios de diseño para que la imagen de <strong>tu marca</strong> esté a la altura
-                    de tus valores y adaptada a los canales en los que tiene que estar presente.</p>
+                    ¿Cómo? Ofreciendo diferentes servicios de diseño para que la imagen de <strong>tu marca</strong>
+                    esté a la altura
+                    de tus valores y adaptada a los canales en los que tiene que estar presente.
+                </p>
                 <a href="#" class="btn btn-primary m-2">SABER MÁS</a>
             </div>
         </div>
@@ -99,26 +129,35 @@
                 <p>-Diseño web<br>
                     -Mantenimiento RRSS<br>
                     -Google analytics<br>
-                   - Mantenimiento blog </p>
+                    - Mantenimiento blog </p>
                 <a href="#" class="btn btn-primary m-2">VER MÁS</a>
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-6" id="portfolio">
-                <img src="imagenes/1.jpg" alt="portfolio" height="auto" width="100%">
+                <div>
+                    <img src="imagenes/1.jpg" alt="portfolio" height="auto" width="100%">
+                </div>
             </div>
             <div class="col-sm-6" id="portfolio">
-                <img src="imagenes/2.jpg" alt="portfolio" height="auto" width="100%">
+                <div>
+                    <img src="imagenes/2.jpg" alt="portfolio" height="auto" width="100%">
+                </div>
             </div>
             <div class="col-sm-6" id="portfolio">
-                <img src="imagenes/3.jpg" alt="portfolio" height="auto" width="100%">
+                <div>
+                    <img src="imagenes/3.jpg" alt="portfolio" height="auto" width="100%">
+                </div>
             </div>
             <div class="col-sm-6" id="portfolio">
-                <img src="imagenes/4.jpg" alt="portfolio" height="auto" width="100%">
+                <div>
+                    <img src="imagenes/4.jpg" alt="portfolio" height="auto" width="100%">
+                </div>
             </div>
-
+            
         </div>
+        
 
     </main>
 
@@ -127,22 +166,29 @@
             <div class="col-sm-6" style="text-align: left; display: inline-flex; align-items: center;" id="copyright">
                 <p>Página web diseñada por <strong>Aflordepixel</strong>. Todos los derechos reservados.</p>
             </div>
-            <div class="col-sm-6" style="display: inline-flex; justify-content: flex-end; align-items: center;" id="social">
+            <div class="col-sm-6" style="display: inline-flex; justify-content: flex-end; align-items: center;"
+                id="social">
                 <ul>
-                <li><a href="https://es-la.facebook.com/Aflordepixel/" style="display: inline-flex;" target="_blank" class="facebook"><img src="imagenes/social-02.png" alt="facebook" style="width: 25px;"></img></a></li>
-                <li><a href="https://www.instagram.com/aflordepixel.estudio/" style="display: inline-flex;" target="_blank" class="instagram"><img src="imagenes/social-03.png" alt="Instagram" style="width: 25px;"></img></a></li>
-                <li><a href="https://www.behance.net/aflordepixel" style="display: inline-flex;" target="_blank" class="behance"><img src="imagenes/social-04.png" alt="Behance" style="width: 25px;"></img></a></li>
-                <li><a href="https://www.linkedin.com/company/aflordepixel/" style="display: inline-flex;" target="_blank" class="linkedin"><img src="imagenes/social-05.png" alt="Linkedin" style="width: 25px;"></img></a></li>
-            </ul>
+                    <li><a href="https://es-la.facebook.com/Aflordepixel/" style="display: inline-flex;" target="_blank"
+                            class="facebook"><img src="imagenes/social-02.png" alt="facebook"
+                                style="width: 25px;"></img></a></li>
+                    <li><a href="https://www.instagram.com/aflordepixel.estudio/" style="display: inline-flex;"
+                            target="_blank" class="instagram"><img src="imagenes/social-03.png" alt="Instagram"
+                                style="width: 25px;"></img></a></li>
+                    <li><a href="https://www.behance.net/aflordepixel" style="display: inline-flex;" target="_blank"
+                            class="behance"><img src="imagenes/social-04.png" alt="Behance"
+                                style="width: 25px;"></img></a></li>
+                    <li><a href="https://www.linkedin.com/company/aflordepixel/" style="display: inline-flex;"
+                            target="_blank" class="linkedin"><img src="imagenes/social-05.png" alt="Linkedin"
+                                style="width: 25px;"></img></a></li>
+                </ul>
             </div>
         </div>
     </footer>
-
-
-</body>
-
-</html>
-
+    <div id="cookies">
+        Este sitio usa cookies, si cierras este mensaje, estás aceptando nuestra política de privacidad y datos.
+        <button>Cerrar</button>
+    </div>
 
 </body>
 
