@@ -88,6 +88,14 @@ color: #0B2A3C;
     padding: 0;
 }
 
+.banner h1 {
+    font-family: playfair display;
+    font-size: 5vh;
+    text-align: right;
+    padding-right: 2em;
+}
+
+
 .navbar-dark .navbar-brand {
     color: #0B2A3C;
     font-family: Arial, Helvetica, sans-serif;
@@ -110,6 +118,11 @@ background-image: url(imagenes/menu.svg)!important;
     font-size: 2.5vh;
     font-weight: bold;
     padding-left: 3em;
+}
+
+.nav-item li :hover {
+    color:#496e83;
+
 }
 
 #collapsibleNavbar ul {
@@ -206,4 +219,26 @@ h4 {
 
 #footer {
     margin-top: 3vh;
+}
+
+#cookies {
+align-content: center;
+font-family: Montserrat;
+font-size: 2vh;
+line-height: 1.5vh;
+padding-top: 1em;
+}
+
+#cookies button {
+
+    color: #0B2A3C;
+    background-color: #f3f4e6;
+    border-color: #007bff00;
+    border-radius: 10px;
+    padding: 1.5vh;
+    
+}
+
+#portfolio img:hover {
+    filter: opacity(50%);
 }
