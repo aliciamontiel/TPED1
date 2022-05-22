@@ -169,18 +169,19 @@ video {
 
 .funciones{
 background-image: url(./imagenes/servicios.jpg);
-height: 1080px;
+box-sizing: border-box;
 background-size: contain;
 background-repeat: no-repeat;
 }
 
-#pantallas > div {
+#pantallas div {
     max-height: 50vh;
 }
 
 #pantallas img {
     padding-top:20vh;
     width: 70%;
+    max-width: 45%;
 }
 
 .funciones p{
@@ -219,11 +220,6 @@ video {
     width: 100%;
 }
 
-#pantallas img{
-
-    max-width: 45%;
-
-}
 
 .funciones {
 
@@ -436,3 +432,6 @@ padding-top: 1em;
     align-items: center;
 }
 
+.opinion{
+    margin-top: 1em;
+}
